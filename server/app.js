@@ -56,8 +56,8 @@ app.use(bodyParser.json());
 app.use(
   cors({
     origin: [
-      'https://boutique-client-dangtrantien.vercel.app',
-      'https://boutique-admin-dangtrantien.vercel.app',
+      'https://e-commerce-admin-dangtrantien.vercel.app',
+      'https://e-commerce-client-dangtrantien.vercel.app',
     ],
     optionsSuccessStatus: 200,
     credentials: true,

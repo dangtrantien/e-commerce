@@ -4,9 +4,9 @@
 
 This project was deploy here:
 
-`1` Admin website: []()
+`1` Admin website: [https://e-commerce-admin-dangtrantien.vercel.app](https://e-commerce-admin-dangtrantien.vercel.app)
 
-`2` Client website: []()
+`2` Client website: [https://e-commerce-client-dangtrantien.vercel.app](https://e-commerce-client-dangtrantien.vercel.app)
 
 ### • Description:
 

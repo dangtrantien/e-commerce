@@ -12,7 +12,7 @@ const store = configureStore({
   },
 });
 
-// export const host = 'http://192.168.1.107:5000';
-export const host = 'https://boutique-server-dangtrantien.vercel.app';
+// export const host = 'http://localhost:5000';
+export const host = 'https://e-commerce-server-dangtrantien.vercel.app';
 
 export default store;
