@@ -1,0 +1,62 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.table-container table {
+  text-align: center;
+  border: none;
+  border-spacing: inherit;
+  color: #000;
+  table-layout: fixed;
+}
+
+.table-container thead {
+  background-color: rgba(255, 240, 246, 0.4);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.table-container th,
+.table-container td {
+  padding: 1rem;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.arrow-icon {
+  font-size: 3.6rem;
+  cursor: pointer;
+}
+
+.trash-icon {
+  font-size: 2rem;
+  color: var(--color-gray-500);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .table-container table {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}

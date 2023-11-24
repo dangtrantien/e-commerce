@@ -1,0 +1,22 @@
+.user-infor--container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.user-infor--container h1 {
+  font-size: 3.2rem;
+  color: #000;
+}
+
+@media only screen and (min-width: 600px) {
+  .user-infor--container {
+    padding: 0 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}

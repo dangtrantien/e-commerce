@@ -1,0 +1,39 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.table-container table {
+  text-align: center;
+  border: none;
+  border-spacing: inherit;
+  color: #000;
+  table-layout: fixed;
+}
+
+.table-container thead {
+  background-color: rgba(255, 240, 246, 0.4);
+  text-transform: uppercase;
+}
+
+.table-container th,
+.table-container td {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .table-container table {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}

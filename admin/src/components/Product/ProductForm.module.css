@@ -1,0 +1,42 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.control-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.control-container label {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.control-container input,
+.control-container textarea {
+  padding: 1rem;
+}
+
+.input-number--container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .input-number--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}

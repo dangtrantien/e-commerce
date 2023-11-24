@@ -1,0 +1,40 @@
+.card-container {
+  height: 15vh;
+  flex: 1;
+  flex-basis: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-container p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #000 !important;
+  display: flex;
+  align-items: flex-start;
+}
+
+.total span {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 600px) {
+  .card-container {
+    flex-basis: 40%;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .card-container {
+    flex-basis: 20%;
+  }
+}

@@ -1,0 +1,51 @@
+.table-container {
+  margin-top: 5rem;
+  overflow-x: auto;
+}
+
+.table-container::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  height: 2rem;
+  background-color: var(--color-gray-500);
+  border-radius: 1rem;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-gray-700);
+}
+
+.table-container table {
+  min-width: 150rem;
+  text-align: center;
+  border: none;
+  border-spacing: inherit;
+  color: #000;
+}
+
+.table-container thead {
+  background-color: rgba(255, 240, 246, 0.4);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.table-container th,
+.table-container td {
+  padding: 2rem 1rem;
+}
+
+.view-detail--btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}

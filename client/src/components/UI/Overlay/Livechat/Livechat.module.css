@@ -1,0 +1,10 @@
+.icon {
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -20%);
+  z-index: 1;
+  cursor: pointer;
+}

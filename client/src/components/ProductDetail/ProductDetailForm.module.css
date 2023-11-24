@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+}
+
+.input {
+  width: 25rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-gray-500);
+  font-style: normal;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  background-color: inherit;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.input input::-webkit-outer-spin-button,
+.input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.icon {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.form button {
+  font-style: italic;
+}
+
+@media only screen and (min-width: 600px) {
+  .input {
+    width: 20rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .input {
+    width: fit-content;
+  }
+}
